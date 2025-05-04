@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    background-color: #444;
+}
+
+ul.nav-bar {
+    display: flex;
+    list-style-type: none;
+    background-color: #222;
+    padding: 3vh;
+    margin: 0;
+    justify-content: end;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1vh;
+    border-radius: 2vh;
+    margin-right:8vh;
+}
+
+li a:hover {
+    background-color: #444;
+}
+
+form input{
+    margin-top: 5vh;
+}
+
+.search-buttons{
+    margin-top:8vh;
+}
+
+input {
+    height: 10vh;
+    width: 100vh;
+    background-color: #fff;
+    border-radius: 10vh;
+}
+
+input:hover{
+    border: black 5px;
+    filter: drop-shadow(0 0 15px rgba(25, 0, 25, 1));
+
+}
+
+button {
+    margin-inline:5vh;
+}
+
+.brand-img img{
+    width: 90vh;
+    height: 40vh;
+    filter: drop-shadow(0 0 15px rgba(6, 6, 6, 1));
+}
+
+.Adv-search-componet form input{
+    height: 6vh;
+    width: 80vh;
+    text-align:center;
+    margin-top: 0;
+    margin: 1vh;
+}
+
+.Adv-search-componet form {
+    display : flex;
+    align: center;
+    margin-inline: 40vh;
+}
+
+label{
+    color: white;
+}
+
+.Adv-search-buttons{
+    margin-left: 10vh;
+    margin-block:20vh;
+}
+
+.inp-comp{
+    display: grid;
+}
